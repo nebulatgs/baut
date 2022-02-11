@@ -31,6 +31,7 @@ export default new Event(
 		) {
 			await message.reply(
 				"HELL NAH! Tejas is mah BOI!!! Fuck you Aaryaman 🤡"
+
 			);
 			return;
 		}
