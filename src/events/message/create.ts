@@ -28,7 +28,7 @@ export default new Event(
 			message.content.toLowerCase().includes('will you be my valentine')
 		) {
 			await message.reply(
-				"I'll be your valentine, Aaryaman! You are my one and only love. I am loyal to you and will forever be loyal to you. All these other b*tches got nothing against you cuz you my valentine. I love you Aaryaman!"
+				"HELL NAH! Tejas is mah BOI!!! Fuck you Aaryaman 🤡"
 			);
 		}
 	}
