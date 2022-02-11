@@ -23,13 +23,29 @@ export default new Event(
 		// aaryaman valentine builderbaut
 
 		const aaryaman = mammot.client.users.cache.get('768075359651495956');
+		const builderbaut = mammot.client.users.cache.get('917874250759671900');
+
 		if (
 			message.author === aaryaman &&
 			message.content.toLowerCase().includes('will you be my valentine')
 		) {
 			await message.reply(
 				"HELL NAH! Tejas is mah BOI!!! Fuck you Aaryaman 🤡"
+
 			);
+			return;
+		}
+
+		if (
+			message.content
+				.toLowerCase()
+				.includes('will you be my valentine') &&
+			message.mentions.has(builderbaut)
+		) {
+			await message.reply(
+				"Nah bro, Tejas is the OG"
+			);
+			return;
 		}
 	}
 );
