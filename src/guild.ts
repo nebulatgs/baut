@@ -91,7 +91,7 @@ export const embedMessages: EmbedMessages = {
 
     We wish to empower all the young developers, designers, entrepreneurs, community builders, and other awesome individuals out there that want to change the world.
 
-    If you'd like to support our mission, you can send out this permanent invite link to anyone that might find Buildergroop interesting: https://buildergroop.com
+    If you'd like to support our mission, you can send out this permanent invite link to anyone that might find Buildergroop interesting: https://discord.gg/builders
 
     Let's get this thing around the globe. It's time to make an impact.
 `,
