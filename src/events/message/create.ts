@@ -19,5 +19,44 @@ export default new Event(
 				console.error(error);
 			}
 		}
+
+		// SALVAGE_LIKES_TO_SCREAM
+		switch (message.channel.id) {
+		case channels.wins:
+			message.startThread({
+				name: 'Win Thread',
+				autoArchiveDuration: 1440,
+				reason: `[Baut AutoThread] Thread created for ${message.author.tag}`,
+			});
+			break;
+		case channels.help:
+			message.startThread({
+				name: 'Help Thread',
+				autoArchiveDuration: 1440,
+				reason: `[Baut AutoThread] Thread created for ${message.author.tag}`,
+			});
+			break;
+		case channels.resources:
+			message.startThread({
+				name: 'Resource Thread',
+				autoArchiveDuration: 1440,
+				reason: `[Baut AutoThread] Thread created for ${message.author.tag}`,
+			});
+			break;
+		case channels.jobs:
+			message.startThread({
+				name: 'Job Thread',
+				autoArchiveDuration: 1440,
+				reason: `[Baut AutoThread] Thread created for ${message.author.tag}`,
+			});
+			break;
+		case channels.showcase:
+			message.startThread({
+				name: 'Showcase Thread',
+				autoArchiveDuration: 1440,
+				reason: `[Baut AutoThread] Thread created for ${message.author.tag}`,
+			});
+			break;
+		}
 	}
 );
