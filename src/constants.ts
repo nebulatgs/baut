@@ -1,4 +1,4 @@
-export const env = process.env;
-export const isProd = env.NODE_ENV === 'production';
-export const token = process.env.DISCORD_TOKEN;
-export const webhook = process.env.MEMBERS_WEBHOOK;
+export const PROD = process.env.NODE_ENV === 'production';
+export const TOKEN = process.env.DISCORD_TOKEN;
+export const WEBHOOK = process.env.MEMBERS_WEBHOOK;
+export const PREFIX = process.env.PREFIX;

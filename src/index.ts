@@ -8,7 +8,7 @@ import {
 	Before1kmembers,
 } from './cmds';
 import { clientOptions } from './config';
-import { token } from './constants';
+import { TOKEN } from './constants';
 import { loadComponents, loadEvents } from './util/fileLoader';
 
 import { Collection } from 'discord.js';
@@ -32,4 +32,4 @@ async function boot() {
 	mammot.name
 }
 
-boot().then(() => mammot.login(token));
+boot().then(() => mammot.login(TOKEN));
